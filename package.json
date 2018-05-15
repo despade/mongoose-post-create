@@ -1,0 +1,28 @@
+{
+  "name": "mongoose-post-create",
+  "version": "1.0.0",
+  "description": "Plugin for Mongoose post create functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/despade/mongoose-post-create.git"
+  },
+  "author": "Zhivko Draganov <zhivko.draganov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/despade/mongoose-post-create/issues"
+  },
+  "homepage": "https://github.com/despade/mongoose-post-create#readme",
+  "dependencies": {
+    "async": "^2.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "mongoose": "^5.1.1",
+    "should": "^13.2.1",
+    "sinon": "^5.0.7"
+  }
+}
